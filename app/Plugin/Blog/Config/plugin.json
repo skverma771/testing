@@ -1,0 +1,14 @@
+{
+	"name" : "Blog",
+	"description" : "By enabling this, link to blog will be enabled in footer.",
+	"author" : "Agriya",
+	"authorEmail" : "info@agriya.com",
+	"authorUrl" : "http://www.agriya.com",
+	"settings" : "true",
+	"parent": "3.Plugins For All Modules.Children.Others.Children",
+	"icon" : "comments",
+	"disable" : 1,
+	"delete" : 1,
+	"module_id": "594",
+	"module_hash": "2812ab98444c1d87e79ce6f9f5b6b72e"
+}

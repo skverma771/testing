@@ -1,0 +1,14 @@
+{
+	"name" : "ZazPay",
+	"description" : "Payment through ZazPay.",
+	"author" : "Agriya",
+	"authorEmail" : "info@agriya.com",
+	"authorUrl" : "http://www.agriya.com",
+	"settings" : "true",
+	"parent": "2.Plugins For All Modules.Children.Payments.Children",
+	"icon" : "sudopay",
+	"disable" : 1,
+	"delete" : 1,
+	"module_id": "619",
+	"module_hash": "84c9d8fd125289d8da850dbde33dfafd"
+}

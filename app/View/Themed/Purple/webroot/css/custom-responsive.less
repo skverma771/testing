@@ -1,0 +1,376 @@
+/*Media query styles*/
+@media (min-width: 768px) and (max-width: 979px) {
+	body {
+		.content {
+			h2.start-title {
+				span {
+					left:295px;
+				}
+			}
+			ol.over-block1 {
+				> li .list-content {
+					height:240px;
+					.btn{
+						width:84px;
+					}
+				}
+			}
+			.banner-bg, .banner-bg > div {
+				position:static;
+				margin:0px;
+				width:auto;
+				text-align:center;
+				.space{
+					padding:10px;
+				}
+			}
+			.space {
+				padding:5px;
+			}
+			.or-ver {
+				left: 8px;
+				top: 120px;
+			}
+			.form-login {
+				margin-left:10px;
+				.checkbox {
+					margin-left:5px;
+				}
+				.info{
+					margin-left:10px;
+				}
+				label{
+					background-position: 3px 3px;
+					.pad(0px, 0px, 0px, 10px);
+					text-align: left;
+				}
+				.form-actions{
+					.pad(10px, 10px, 10px, 10px);
+				}
+			}
+			.navbar {
+				.nav {
+					> li {
+						> a{
+							.pad(10px, 10px, 10px, 10px);
+						}
+					}
+				}
+			}
+			 .navbar {
+				.admin-menu {
+					> li{
+						> a{
+							.pad(15px, 20px, 15px, 20px);
+						}
+					}
+				}
+			 }
+			 .vot-count{
+				a{
+					.pad(2px, 7px, 2px, 7px);
+				}
+			 }
+			 .navbar .nav-collapse .dropdown .dropdown-menu {
+				display: none;
+			}
+			.navbar .nav-collapse .dropdown.open .dropdown-menu {
+				display: block;
+			}
+		}
+	}
+}
+@media (max-width:767px) {
+    body {
+    .pad(0px, 10px,0px, 10px);
+        .content {
+            .mob-clr {
+                float: none;
+                display: block;
+                width: auto;
+            }
+            .donate-link-block {
+                float: none;
+                margin: 10px 0 0 0;
+            }
+            h2.start-title span {
+                position: static;
+            }
+            .list-block img {
+                width: 100%;
+            }
+            .fund {
+                display: block;
+            }
+            .affix-content, .affix, .admin .admin-content, .banner-bg {
+                position: static;
+            }
+            [class*="span"].pull-left {
+                float: left;
+                margin-left: 10px;
+            }
+            .fixed-nav-container, .fixed-admin-nav-container {
+                padding: 0px;
+            }
+            ol.over-block1 > li .list-content {
+                height: 240px;
+            }
+            [class*="span"].more {
+                width: 35px;
+            }
+            .form-horizontal {
+				.checkbox, .help-block, .help, .info {
+					margin-left: auto;
+				}
+				label {
+					text-align:left;
+					background-position:left top;
+				}
+			}
+			.form-login {
+				.form-actions{
+					.pad(10px, 10px, 10px, 10px);
+				}
+			}
+            .or-ver {
+				top: 9px;
+				left: 47%;
+            }
+            .thumbnail {
+				h4.ver-space+aside {
+					border-top:1px solid #ddd;
+					border-left:none;
+				}
+			}
+            .navbar {
+                .sep, .sep-top, .sep-right, .sep-bot {
+                    border: none;
+                }
+                [class*="span"] {
+                    margin-left: 0;
+                }
+            }
+            .navbar .brand {
+                padding-left: 20px;
+            }
+			.nav-tabs {
+				> li{
+					float:none;
+				}
+			}
+			.over-details{
+				.pull-left{
+					float:left;
+				}
+			}
+			.mob-ps{
+				position:static;
+			}
+			.project-affix.affix{
+				height:auto;
+				width:auto;
+				border:none;
+				box-shadow: none;
+				.mob-ps{
+					a{
+						.mar(5px, 0, 5px, 0);
+					}
+				}
+			}
+			.navbar .nav > li > .dropdown-menu{
+						&:before, &:after {
+						display:none;
+				}
+			}
+			.dropdown-menu.arrow:before, .dropdown-menu.arrow:after{
+				border: none;
+			}
+			.navbar .nav-collapse .dropdown .dropdown-menu {
+				display: none;
+			}
+			.navbar .nav-collapse .dropdown.open .dropdown-menu {
+				display: block;
+			}
+			.register-social-icons ul li.span.pull-left {
+				margin-left: 0px;
+			}
+			// Shared size and type resets
+		#main {
+			.form-maximize {
+				select,
+				textarea,
+				input[type="text"],
+				input[type="password"],
+				input[type="datetime"],
+				input[type="datetime-local"],
+				input[type="date"],
+				input[type="month"],
+				input[type="time"],
+				input[type="week"],
+				input[type="number"],
+				input[type="email"],
+				input[type="url"],
+				input[type="tel"],
+				input[type="color"],
+				input[type="video"],
+				.uneditable-input input {
+					width: 95%;
+				}
+				textarea {
+					width: 92%;
+					height: 125px;
+				}
+				.website-block textarea{
+					width: 92%;
+				}
+				select {
+					width: 100%;
+					height: 42px;
+					border: 1px solid #bbb;
+					background-color: @inputBackground;
+				}
+				label {
+					width: 100%;
+				}
+				.form-horizontal .checkbox,
+				.help,
+				.info {
+					margin-left: 0px;
+					width: 100%;
+				}
+				.checkbox {
+					margin-left: 0px;
+				}
+				.checkbox label {
+					width: auto;
+				}
+				.checkbox .info {
+					margin-left: 0;
+				}
+				.radio {
+					margin-left: 0px;
+				label {
+					width: auto;
+				}
+				}
+				.profile-block {
+					input[type="text"],
+					select {
+						width: 100%;
+					}
+					.info {
+						width: 100%;
+					}
+				}
+				input.location-input {
+					width: 275px!important;
+				}
+				select.location-input {
+					width: 100%;
+				}
+				.input .error-message {
+					margin-left:0;
+				}
+				.checkbox .error-message {
+					margin-left: 0;
+				}
+				.date {
+					select {
+					width: 133px!important;
+					}
+				}
+				.payment-gateways {
+					.radio {
+						label {
+							width: 95%;
+						}
+					}
+				}
+				.payment-type {
+					.radio {
+						margin-left: 0px;
+					}
+				}
+			}
+		}
+		footer, .footer-push {
+			margin:0px;
+		}
+		.modal.fade.in {
+		top: 30px;
+		}
+        }
+    }
+
+}
+@media (max-width: 685px) {
+	body {
+		.content{
+			.modal {
+				height:90%;
+				overflow: scroll;
+			}
+		}
+	}
+}
+@media (max-width: 480px) {
+	body {
+		.content {
+			.form-horizontal {
+				.help-block, .help, .submit {
+					margin:0px;
+				}
+				label {
+					text-align:left;
+					background-position:left top;
+				}
+				.affix {
+					position:static;
+				}
+			}
+		}
+	}
+}
+@media (max-width: 450px) {
+	body {
+		.content {
+			.text-16 {
+				height:auto;
+			}
+			ol.over-block > li .list-content {
+				height: 218px;
+			}
+			.nav-collapse {
+				.navbar-search {
+					padding:10px 5px 10px 9px;
+				}
+			}
+			footer, .footer-push {
+				.container {
+					padding:0;
+				}
+			}
+		}
+	}
+}
+@media (max-width:320px) {
+	body {
+		input, textarea {
+			width:150px;
+		}
+		.bootstrap-datetimepicker-widget{
+			left:0;
+		}
+	}
+}
+@media (max-width:300px) {
+	body {
+		.content {
+			.list-block ol.thumbnails, ol.over-block, ol.over-block1 {
+				> li .list-content {
+					height:260px;
+				}
+			}
+		}
+	}
+}

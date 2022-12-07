@@ -1,0 +1,29 @@
+<?php
+/**
+ *
+ * @package		Crowdfunding
+ * @author 		siva_063at09
+ * @copyright 	Copyright (c) 2012 {@link http://www.agriya.com/ Agriya Infoway}
+ * @license		http://www.agriya.com/ Agriya Infoway Licence
+ * @since 		2012-07-25
+ *
+ */
+class GuestUsersController extends AppController
+{
+    public $name = 'GuestUsers';	
+	public function admin_view($id = null)
+    {
+		//exit('1223');
+        $this->pageTitle = __l('GuestUser Details');
+        if (is_null($id)) {
+            throw new NotFoundException(__l('Invalid request'));
+		}
+		$this->set('id', $id);
+	}
+	
+	public function admin_index()
+    {
+		exit('1');
+	}
+}
+?>

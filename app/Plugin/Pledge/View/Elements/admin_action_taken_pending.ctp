@@ -1,0 +1,1 @@
+<li><i class="icon-caret-right grayc"></i><?php echo $this->Html->link(sprintf(__l('%s - Pending For Approval'), Configure::read('project.alt_name_for_pledge_singular_caps')) . ' (' . $pledge_pending_for_approval_count. ')', array('controller' => 'pledges', 'action' => 'index', 'project_status_id' => ConstPledgeProjectStatus::PendingAction), array('class' => 'grayc'));?> </li>

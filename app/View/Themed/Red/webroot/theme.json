@@ -1,0 +1,12 @@
+{
+	"name" : "Crowdfunding Red",
+	"description" : "Crowdfunding Red Theme",
+	"screenshot" : "home-red.png",
+
+	"author" : "Agriya",
+	"authorEmail" : "info@agriya.com",
+	"authorUrl" : "http://www.agriya.com",
+	"menus" : [
+		"footer1"
+	]
+}

@@ -1,0 +1,78 @@
+<section>
+<!--.list-block ol.thumbnails > li:hover .list-details { margin-top: 150px; } -->
+
+	<div class="clearfix">
+
+		<div class="well no-round banner-block banner-block-new"> 
+			  <div class="container dc">
+					<div class="clearfix top-space"> 
+						 <a href="##ADD_URL##" title="Start Project" class="js-tooltip btn btn-large btn-primary start-busking-bg"> Start busking</a>
+					 </div>
+			  </div>
+		</div>
+<div class=" container light-green-bg txt">			
+  <div class="js-response project-block" id="js-pledge-trending_performance-scroll">
+      <div class="span22 offset1">
+    <div>
+	  <article class="list-block ">
+	  <ol class=" thumbnails row ">
+	  <li></li>	
+		<?php if ($montages):?>
+			<?php //echo '<pre>'; print_r($montages); exit; ?>
+				<?php $i=1; ?>
+				<?php foreach ($montages as $montage): ?>
+				<?php	$no_mar_class='';
+						if ($i%2==1) {
+							$class='no-mar';
+						}
+						$name = null;
+						$description = null;
+						if ($montage['Montage']['use_project_details']){ 
+									$name = $montage['Project']['name'];
+									$description = substr($montage['Project']['description'],0,100); }
+							else { 
+									$name = $montage['Montage']['title'];  
+									$description = substr($montage['Montage']['description'],0,180); } ?>	
+					<li class="span7">
+					<a  class="links" href="<?php echo Router::url('/', true)."montages/view/".$montage['Montage']['id'];?>">
+					<section class="montage">
+					<div class="list-content pr">
+					<?php						
+												if (!empty($montage['Montage']['attachment_id'])) {
+													if(!empty($montage['Attachment']['filename'])){
+														echo $this->Html->showImage('Montage', $montage['Attachment'], array('dimension' => 'big_thumb','class' => 'js-tooltip','title' => $this->Html->cText($montage['Attachment']['filename'], false)));
+													}
+												}
+												else { 
+														$parts = explode('=',  $montage['Montage']['video_url']);?>
+														<img src="http://img.youtube.com/vi/<?php echo trim(end($parts), " "); ?>/hqdefault.jpg"></img>
+												<?php
+												}
+												?>
+						<div class="face">
+						<section class="meta-slide-up">
+							<div class="show-meta"><div class="title-container">
+									<div class="clearfix bot-mspace dropdown dc pa clsListHd">
+									<h4 class="links"><?php echo $name; ?></h4>
+									</div>       
+							</div></div>
+                            <div class="space dec wordwrap text-justify text-14">
+											<?php echo $description; ?>
+									</div>
+						</section></div>
+						</div>
+						
+					</section>
+					</a>
+				</li>
+				<?php endforeach; ?>
+				<?php endif;  ?>	
+			</ol>
+		 </article>
+            </div>
+		</div>
+		</div>
+    </div>
+
+	</div>
+</section>

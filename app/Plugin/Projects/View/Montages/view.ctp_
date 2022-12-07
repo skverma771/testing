@@ -1,0 +1,42 @@
+<section>
+<?php if(!empty($montage['Montage'])) {?>
+	<div class="container">
+			<div class="videoDesBg">
+							<div class="video-container">
+												<?php
+												if (!empty($montage['Montage']['video_url'])) {
+													/*if ($this->Embed->parseUrl($montage['Montage']['video_url'])) {
+														$this->Embed->setObjectAttrib('wmode','transparent');
+														$this->Embed->setObjectParam('wmode', 'transparent');
+														echo $this->Embed->getEmbedCode();
+													}*/
+												$parts = explode('=',  $montage['Montage']['video_url']); ?>	
+												<iframe width="420" height="345" src="https://www.youtube.com/embed/<?php echo trim(end($parts), " "); ?>"></iframe>
+												<?php
+												} else if (!empty($montage['Montage']['attachment_id'])) {
+													if(!empty($montage['Attachment']['filename'])){
+													//echo $montage['Attachment']['filename'];
+														echo $this->Html->showImage('Montage', $montage['Attachment'], array('dimension' => 'very_big_thumb','class' => 'js-tooltip','title' => $this->Html->cText($montage['Attachment']['filename'], false)));
+													}
+												} else {
+														//echo "http://img.youtube.com/vi/".$montage['Montage']['video_url']."/0.jpg";
+														//echo "http://img.youtube.com/vi/".$montage['Montage']['video_url']."/sddefault.jpg";?>
+														<img src="./img/default.jpg" width="100%" height="100%"></img>
+												<?php
+												}
+												?>					
+							</div>
+			</div>
+	</div>
+	<div class="videoDesBg"><div class="container ">
+    <div class="center-block space">
+	<h2 class="space titles"><?php echo $montage['Montage']['title']; ?></h2>
+	<p class="space text-nowrap text-justify align_txt"><?php echo $montage['Montage']['description']; ?></p>
+    
+  	<!--<button class="btn btn-large btn-primary" type="button">Mini button</button>-->
+	</div>
+    </div>
+    </div>
+	<?php } ?>
+	
+</section>

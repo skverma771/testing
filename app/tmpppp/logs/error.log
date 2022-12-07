@@ -1,0 +1,403 @@
+2022-12-05 18:15:49 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [1045] Access denied for user 'buskerdues'@'103.83.149.81' (using password: YES)" is missing, or could not be created.
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Datasource\DboSource.php(259): Mysql->connect()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3290): ConnectionManager::getDataSource('default')
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(1094): Model->setDataSource('default')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3316): Model->setSource('setting_categor...')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(2744): Model->getDataSource()
+#6 D:\xampp7.4\htdocs\busker\app\Model\AppModel.php(70): Model->find('all', Array)
+#7 D:\xampp7.4\htdocs\busker\app\Config\cms_menus.php(133): AppModel->find('all', Array)
+#8 D:\xampp7.4\htdocs\busker\app\Config\bootstrap.php(83): require_once('D:\\xampp7.4\\htd...')
+#9 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\Configure.php(92): include('D:\\xampp7.4\\htd...')
+#10 D:\xampp7.4\htdocs\busker\core\lib\Cake\bootstrap.php(142): Configure::bootstrap(true)
+#11 D:\xampp7.4\htdocs\busker\app\webroot\index.php(138): include('D:\\xampp7.4\\htd...')
+#12 {main}
+2022-12-05 18:15:49 Error: Fatal Error (1): Uncaught Error: Class 'ProjectType' not found in D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php:697
+Stack trace:
+#0 D:\xampp7.4\htdocs\busker\app\View\Layouts\default.ctp(138): AppHelper->onProjectAddFormLoad()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(1033): include('D:\\xampp7.4\\htd...')
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(997): View->_evaluate('D:\\xampp7.4\\htd...', Array)
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(653): View->_render('D:\\xampp7.4\\htd...')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(491): View->renderLayout('<h2>An Internal...', 'default')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Controller\Controller.php(960): View->render('error500', 'default')
+#6 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(288): Controller->render('error500')
+#7 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(240): ExceptionRenderer->_outputMessage('error500')
+#8 D:\xampp7.4\htdocs\busker\core\lib\Ca in [D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php, line 697]
+2022-12-05 18:15:49 Error: [InternalErrorException] Internal Server Error
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697)
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(927): ErrorHandler::handleError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697, Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2022-12-05 18:21:28 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [1045] Access denied for user 'buskerdues'@'103.83.149.81' (using password: YES)" is missing, or could not be created.
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Datasource\DboSource.php(259): Mysql->connect()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3290): ConnectionManager::getDataSource('default')
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(1094): Model->setDataSource('default')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3316): Model->setSource('setting_categor...')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(2744): Model->getDataSource()
+#6 D:\xampp7.4\htdocs\busker\app\Model\AppModel.php(70): Model->find('all', Array)
+#7 D:\xampp7.4\htdocs\busker\app\Config\cms_menus.php(133): AppModel->find('all', Array)
+#8 D:\xampp7.4\htdocs\busker\app\Config\bootstrap.php(83): require_once('D:\\xampp7.4\\htd...')
+#9 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\Configure.php(92): include('D:\\xampp7.4\\htd...')
+#10 D:\xampp7.4\htdocs\busker\core\lib\Cake\bootstrap.php(142): Configure::bootstrap(true)
+#11 D:\xampp7.4\htdocs\busker\app\webroot\index.php(138): include('D:\\xampp7.4\\htd...')
+#12 {main}
+2022-12-05 18:21:28 Error: Fatal Error (1): Uncaught Error: Class 'ProjectType' not found in D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php:697
+Stack trace:
+#0 D:\xampp7.4\htdocs\busker\app\View\Layouts\default.ctp(138): AppHelper->onProjectAddFormLoad()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(1033): include('D:\\xampp7.4\\htd...')
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(997): View->_evaluate('D:\\xampp7.4\\htd...', Array)
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(653): View->_render('D:\\xampp7.4\\htd...')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(491): View->renderLayout('<h2>An Internal...', 'default')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Controller\Controller.php(960): View->render('error500', 'default')
+#6 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(288): Controller->render('error500')
+#7 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(240): ExceptionRenderer->_outputMessage('error500')
+#8 D:\xampp7.4\htdocs\busker\core\lib\Ca in [D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php, line 697]
+2022-12-05 18:21:28 Error: [InternalErrorException] Internal Server Error
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697)
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(927): ErrorHandler::handleError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697, Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2022-12-05 18:22:03 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [1045] Access denied for user 'buskerdues'@'103.83.149.81' (using password: YES)" is missing, or could not be created.
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Datasource\DboSource.php(259): Mysql->connect()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3290): ConnectionManager::getDataSource('default')
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(1094): Model->setDataSource('default')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3316): Model->setSource('setting_categor...')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(2744): Model->getDataSource()
+#6 D:\xampp7.4\htdocs\busker\app\Model\AppModel.php(70): Model->find('all', Array)
+#7 D:\xampp7.4\htdocs\busker\app\Config\cms_menus.php(133): AppModel->find('all', Array)
+#8 D:\xampp7.4\htdocs\busker\app\Config\bootstrap.php(83): require_once('D:\\xampp7.4\\htd...')
+#9 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\Configure.php(92): include('D:\\xampp7.4\\htd...')
+#10 D:\xampp7.4\htdocs\busker\core\lib\Cake\bootstrap.php(142): Configure::bootstrap(true)
+#11 D:\xampp7.4\htdocs\busker\app\webroot\index.php(138): include('D:\\xampp7.4\\htd...')
+#12 {main}
+2022-12-05 18:22:03 Error: Fatal Error (1): Uncaught Error: Class 'ProjectType' not found in D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php:697
+Stack trace:
+#0 D:\xampp7.4\htdocs\busker\app\View\Layouts\default.ctp(138): AppHelper->onProjectAddFormLoad()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(1033): include('D:\\xampp7.4\\htd...')
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(997): View->_evaluate('D:\\xampp7.4\\htd...', Array)
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(653): View->_render('D:\\xampp7.4\\htd...')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(491): View->renderLayout('<h2>An Internal...', 'default')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Controller\Controller.php(960): View->render('error500', 'default')
+#6 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(288): Controller->render('error500')
+#7 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(240): ExceptionRenderer->_outputMessage('error500')
+#8 D:\xampp7.4\htdocs\busker\core\lib\Ca in [D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php, line 697]
+2022-12-05 18:22:03 Error: [InternalErrorException] Internal Server Error
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697)
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(927): ErrorHandler::handleError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697, Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2022-12-05 18:22:49 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [1045] Access denied for user 'buskerdues'@'103.83.149.81' (using password: YES)" is missing, or could not be created.
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Datasource\DboSource.php(259): Mysql->connect()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3290): ConnectionManager::getDataSource('default')
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(1094): Model->setDataSource('default')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3316): Model->setSource('setting_categor...')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(2744): Model->getDataSource()
+#6 D:\xampp7.4\htdocs\busker\app\Model\AppModel.php(70): Model->find('all', Array)
+#7 D:\xampp7.4\htdocs\busker\app\Config\cms_menus.php(133): AppModel->find('all', Array)
+#8 D:\xampp7.4\htdocs\busker\app\Config\bootstrap.php(83): require_once('D:\\xampp7.4\\htd...')
+#9 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\Configure.php(92): include('D:\\xampp7.4\\htd...')
+#10 D:\xampp7.4\htdocs\busker\core\lib\Cake\bootstrap.php(142): Configure::bootstrap(true)
+#11 D:\xampp7.4\htdocs\busker\app\webroot\index.php(138): include('D:\\xampp7.4\\htd...')
+#12 {main}
+2022-12-05 18:22:50 Error: Fatal Error (1): Uncaught Error: Class 'ProjectType' not found in D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php:697
+Stack trace:
+#0 D:\xampp7.4\htdocs\busker\app\View\Layouts\default.ctp(138): AppHelper->onProjectAddFormLoad()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(1033): include('D:\\xampp7.4\\htd...')
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(997): View->_evaluate('D:\\xampp7.4\\htd...', Array)
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(653): View->_render('D:\\xampp7.4\\htd...')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(491): View->renderLayout('<h2>An Internal...', 'default')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Controller\Controller.php(960): View->render('error500', 'default')
+#6 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(288): Controller->render('error500')
+#7 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(240): ExceptionRenderer->_outputMessage('error500')
+#8 D:\xampp7.4\htdocs\busker\core\lib\Ca in [D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php, line 697]
+2022-12-05 18:22:50 Error: [InternalErrorException] Internal Server Error
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697)
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(927): ErrorHandler::handleError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697, Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2022-12-05 18:24:39 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [1045] Access denied for user 'buskerdues'@'103.83.149.81' (using password: YES)" is missing, or could not be created.
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Datasource\DboSource.php(259): Mysql->connect()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3290): ConnectionManager::getDataSource('default')
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(1094): Model->setDataSource('default')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3316): Model->setSource('setting_categor...')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(2744): Model->getDataSource()
+#6 D:\xampp7.4\htdocs\busker\app\Model\AppModel.php(70): Model->find('all', Array)
+#7 D:\xampp7.4\htdocs\busker\app\Config\cms_menus.php(133): AppModel->find('all', Array)
+#8 D:\xampp7.4\htdocs\busker\app\Config\bootstrap.php(83): require_once('D:\\xampp7.4\\htd...')
+#9 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\Configure.php(92): include('D:\\xampp7.4\\htd...')
+#10 D:\xampp7.4\htdocs\busker\core\lib\Cake\bootstrap.php(142): Configure::bootstrap(true)
+#11 D:\xampp7.4\htdocs\busker\app\webroot\index.php(138): include('D:\\xampp7.4\\htd...')
+#12 {main}
+2022-12-05 18:24:39 Error: Fatal Error (1): Uncaught Error: Class 'ProjectType' not found in D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php:697
+Stack trace:
+#0 D:\xampp7.4\htdocs\busker\app\View\Layouts\default.ctp(138): AppHelper->onProjectAddFormLoad()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(1033): include('D:\\xampp7.4\\htd...')
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(997): View->_evaluate('D:\\xampp7.4\\htd...', Array)
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(653): View->_render('D:\\xampp7.4\\htd...')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(491): View->renderLayout('<h2>An Internal...', 'default')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Controller\Controller.php(960): View->render('error500', 'default')
+#6 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(288): Controller->render('error500')
+#7 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(240): ExceptionRenderer->_outputMessage('error500')
+#8 D:\xampp7.4\htdocs\busker\core\lib\Ca in [D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php, line 697]
+2022-12-05 18:24:39 Error: [InternalErrorException] Internal Server Error
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697)
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(927): ErrorHandler::handleError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697, Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2022-12-05 18:24:41 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [1045] Access denied for user 'buskerdues'@'103.83.149.81' (using password: YES)" is missing, or could not be created.
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Datasource\DboSource.php(259): Mysql->connect()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3290): ConnectionManager::getDataSource('default')
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(1094): Model->setDataSource('default')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3316): Model->setSource('setting_categor...')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(2744): Model->getDataSource()
+#6 D:\xampp7.4\htdocs\busker\app\Model\AppModel.php(70): Model->find('all', Array)
+#7 D:\xampp7.4\htdocs\busker\app\Config\cms_menus.php(133): AppModel->find('all', Array)
+#8 D:\xampp7.4\htdocs\busker\app\Config\bootstrap.php(83): require_once('D:\\xampp7.4\\htd...')
+#9 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\Configure.php(92): include('D:\\xampp7.4\\htd...')
+#10 D:\xampp7.4\htdocs\busker\core\lib\Cake\bootstrap.php(142): Configure::bootstrap(true)
+#11 D:\xampp7.4\htdocs\busker\app\webroot\index.php(138): include('D:\\xampp7.4\\htd...')
+#12 {main}
+2022-12-05 18:24:41 Error: Fatal Error (1): Uncaught Error: Class 'ProjectType' not found in D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php:697
+Stack trace:
+#0 D:\xampp7.4\htdocs\busker\app\View\Layouts\default.ctp(138): AppHelper->onProjectAddFormLoad()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(1033): include('D:\\xampp7.4\\htd...')
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(997): View->_evaluate('D:\\xampp7.4\\htd...', Array)
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(653): View->_render('D:\\xampp7.4\\htd...')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(491): View->renderLayout('<h2>An Internal...', 'default')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Controller\Controller.php(960): View->render('error500', 'default')
+#6 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(288): Controller->render('error500')
+#7 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(240): ExceptionRenderer->_outputMessage('error500')
+#8 D:\xampp7.4\htdocs\busker\core\lib\Ca in [D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php, line 697]
+2022-12-05 18:24:41 Error: [InternalErrorException] Internal Server Error
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697)
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(927): ErrorHandler::handleError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697, Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2022-12-05 18:28:52 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [1045] Access denied for user 'buskerdues'@'103.83.149.81' (using password: YES)" is missing, or could not be created.
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Datasource\DboSource.php(259): Mysql->connect()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3290): ConnectionManager::getDataSource('default')
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(1094): Model->setDataSource('default')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3316): Model->setSource('setting_categor...')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(2744): Model->getDataSource()
+#6 D:\xampp7.4\htdocs\busker\app\Model\AppModel.php(70): Model->find('all', Array)
+#7 D:\xampp7.4\htdocs\busker\app\Config\cms_menus.php(133): AppModel->find('all', Array)
+#8 D:\xampp7.4\htdocs\busker\app\Config\bootstrap.php(83): require_once('D:\\xampp7.4\\htd...')
+#9 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\Configure.php(92): include('D:\\xampp7.4\\htd...')
+#10 D:\xampp7.4\htdocs\busker\core\lib\Cake\bootstrap.php(142): Configure::bootstrap(true)
+#11 D:\xampp7.4\htdocs\busker\app\webroot\index.php(138): include('D:\\xampp7.4\\htd...')
+#12 {main}
+2022-12-05 18:28:52 Error: Fatal Error (1): Uncaught Error: Class 'ProjectType' not found in D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php:697
+Stack trace:
+#0 D:\xampp7.4\htdocs\busker\app\View\Layouts\default.ctp(138): AppHelper->onProjectAddFormLoad()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(1033): include('D:\\xampp7.4\\htd...')
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(997): View->_evaluate('D:\\xampp7.4\\htd...', Array)
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(653): View->_render('D:\\xampp7.4\\htd...')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(491): View->renderLayout('<h2>An Internal...', 'default')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Controller\Controller.php(960): View->render('error500', 'default')
+#6 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(288): Controller->render('error500')
+#7 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(240): ExceptionRenderer->_outputMessage('error500')
+#8 D:\xampp7.4\htdocs\busker\core\lib\Ca in [D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php, line 697]
+2022-12-05 18:28:52 Error: [InternalErrorException] Internal Server Error
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697)
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(927): ErrorHandler::handleError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697, Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2022-12-05 18:28:54 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [1045] Access denied for user 'buskerdues'@'103.83.149.81' (using password: YES)" is missing, or could not be created.
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Datasource\DboSource.php(259): Mysql->connect()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3290): ConnectionManager::getDataSource('default')
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(1094): Model->setDataSource('default')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3316): Model->setSource('setting_categor...')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(2744): Model->getDataSource()
+#6 D:\xampp7.4\htdocs\busker\app\Model\AppModel.php(70): Model->find('all', Array)
+#7 D:\xampp7.4\htdocs\busker\app\Config\cms_menus.php(133): AppModel->find('all', Array)
+#8 D:\xampp7.4\htdocs\busker\app\Config\bootstrap.php(83): require_once('D:\\xampp7.4\\htd...')
+#9 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\Configure.php(92): include('D:\\xampp7.4\\htd...')
+#10 D:\xampp7.4\htdocs\busker\core\lib\Cake\bootstrap.php(142): Configure::bootstrap(true)
+#11 D:\xampp7.4\htdocs\busker\app\webroot\index.php(138): include('D:\\xampp7.4\\htd...')
+#12 {main}
+2022-12-05 18:28:54 Error: Fatal Error (1): Uncaught Error: Class 'ProjectType' not found in D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php:697
+Stack trace:
+#0 D:\xampp7.4\htdocs\busker\app\View\Layouts\default.ctp(138): AppHelper->onProjectAddFormLoad()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(1033): include('D:\\xampp7.4\\htd...')
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(997): View->_evaluate('D:\\xampp7.4\\htd...', Array)
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(653): View->_render('D:\\xampp7.4\\htd...')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(491): View->renderLayout('<h2>An Internal...', 'default')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Controller\Controller.php(960): View->render('error500', 'default')
+#6 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(288): Controller->render('error500')
+#7 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(240): ExceptionRenderer->_outputMessage('error500')
+#8 D:\xampp7.4\htdocs\busker\core\lib\Ca in [D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php, line 697]
+2022-12-05 18:28:54 Error: [InternalErrorException] Internal Server Error
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697)
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(927): ErrorHandler::handleError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697, Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2022-12-05 18:28:59 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [1045] Access denied for user 'buskerdues'@'103.83.149.81' (using password: YES)" is missing, or could not be created.
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Datasource\DboSource.php(259): Mysql->connect()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3290): ConnectionManager::getDataSource('default')
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(1094): Model->setDataSource('default')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3316): Model->setSource('setting_categor...')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(2744): Model->getDataSource()
+#6 D:\xampp7.4\htdocs\busker\app\Model\AppModel.php(70): Model->find('all', Array)
+#7 D:\xampp7.4\htdocs\busker\app\Config\cms_menus.php(133): AppModel->find('all', Array)
+#8 D:\xampp7.4\htdocs\busker\app\Config\bootstrap.php(83): require_once('D:\\xampp7.4\\htd...')
+#9 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\Configure.php(92): include('D:\\xampp7.4\\htd...')
+#10 D:\xampp7.4\htdocs\busker\core\lib\Cake\bootstrap.php(142): Configure::bootstrap(true)
+#11 D:\xampp7.4\htdocs\busker\app\webroot\index.php(138): include('D:\\xampp7.4\\htd...')
+#12 {main}
+2022-12-05 18:28:59 Error: Fatal Error (1): Uncaught Error: Class 'ProjectType' not found in D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php:697
+Stack trace:
+#0 D:\xampp7.4\htdocs\busker\app\View\Layouts\default.ctp(138): AppHelper->onProjectAddFormLoad()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(1033): include('D:\\xampp7.4\\htd...')
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(997): View->_evaluate('D:\\xampp7.4\\htd...', Array)
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(653): View->_render('D:\\xampp7.4\\htd...')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(491): View->renderLayout('<h2>An Internal...', 'default')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Controller\Controller.php(960): View->render('error500', 'default')
+#6 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(288): Controller->render('error500')
+#7 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(240): ExceptionRenderer->_outputMessage('error500')
+#8 D:\xampp7.4\htdocs\busker\core\lib\Ca in [D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php, line 697]
+2022-12-05 18:28:59 Error: [InternalErrorException] Internal Server Error
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697)
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(927): ErrorHandler::handleError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697, Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2022-12-05 18:29:01 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [1045] Access denied for user 'buskerdues'@'103.83.149.81' (using password: YES)" is missing, or could not be created.
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Datasource\DboSource.php(259): Mysql->connect()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3290): ConnectionManager::getDataSource('default')
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(1094): Model->setDataSource('default')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3316): Model->setSource('setting_categor...')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(2744): Model->getDataSource()
+#6 D:\xampp7.4\htdocs\busker\app\Model\AppModel.php(70): Model->find('all', Array)
+#7 D:\xampp7.4\htdocs\busker\app\Config\cms_menus.php(133): AppModel->find('all', Array)
+#8 D:\xampp7.4\htdocs\busker\app\Config\bootstrap.php(83): require_once('D:\\xampp7.4\\htd...')
+#9 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\Configure.php(92): include('D:\\xampp7.4\\htd...')
+#10 D:\xampp7.4\htdocs\busker\core\lib\Cake\bootstrap.php(142): Configure::bootstrap(true)
+#11 D:\xampp7.4\htdocs\busker\app\webroot\index.php(138): include('D:\\xampp7.4\\htd...')
+#12 {main}
+2022-12-05 18:29:01 Error: Fatal Error (1): Uncaught Error: Class 'ProjectType' not found in D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php:697
+Stack trace:
+#0 D:\xampp7.4\htdocs\busker\app\View\Layouts\default.ctp(138): AppHelper->onProjectAddFormLoad()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(1033): include('D:\\xampp7.4\\htd...')
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(997): View->_evaluate('D:\\xampp7.4\\htd...', Array)
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(653): View->_render('D:\\xampp7.4\\htd...')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(491): View->renderLayout('<h2>An Internal...', 'default')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Controller\Controller.php(960): View->render('error500', 'default')
+#6 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(288): Controller->render('error500')
+#7 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(240): ExceptionRenderer->_outputMessage('error500')
+#8 D:\xampp7.4\htdocs\busker\core\lib\Ca in [D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php, line 697]
+2022-12-05 18:29:01 Error: [InternalErrorException] Internal Server Error
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697)
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(927): ErrorHandler::handleError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697, Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2022-12-05 18:29:05 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [1045] Access denied for user 'buskerdues'@'103.83.149.81' (using password: YES)" is missing, or could not be created.
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Datasource\DboSource.php(259): Mysql->connect()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3290): ConnectionManager::getDataSource('default')
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(1094): Model->setDataSource('default')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3316): Model->setSource('setting_categor...')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(2744): Model->getDataSource()
+#6 D:\xampp7.4\htdocs\busker\app\Model\AppModel.php(70): Model->find('all', Array)
+#7 D:\xampp7.4\htdocs\busker\app\Config\cms_menus.php(133): AppModel->find('all', Array)
+#8 D:\xampp7.4\htdocs\busker\app\Config\bootstrap.php(83): require_once('D:\\xampp7.4\\htd...')
+#9 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\Configure.php(92): include('D:\\xampp7.4\\htd...')
+#10 D:\xampp7.4\htdocs\busker\core\lib\Cake\bootstrap.php(142): Configure::bootstrap(true)
+#11 D:\xampp7.4\htdocs\busker\app\webroot\index.php(138): include('D:\\xampp7.4\\htd...')
+#12 {main}
+2022-12-05 18:29:05 Error: Fatal Error (1): Uncaught Error: Class 'ProjectType' not found in D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php:697
+Stack trace:
+#0 D:\xampp7.4\htdocs\busker\app\View\Layouts\default.ctp(138): AppHelper->onProjectAddFormLoad()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(1033): include('D:\\xampp7.4\\htd...')
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(997): View->_evaluate('D:\\xampp7.4\\htd...', Array)
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(653): View->_render('D:\\xampp7.4\\htd...')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(491): View->renderLayout('<h2>An Internal...', 'default')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Controller\Controller.php(960): View->render('error500', 'default')
+#6 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(288): Controller->render('error500')
+#7 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(240): ExceptionRenderer->_outputMessage('error500')
+#8 D:\xampp7.4\htdocs\busker\core\lib\Ca in [D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php, line 697]
+2022-12-05 18:29:05 Error: [InternalErrorException] Internal Server Error
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697)
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(927): ErrorHandler::handleError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697, Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2022-12-05 18:29:59 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [1045] Access denied for user 'buskerdues'@'103.83.149.81' (using password: YES)" is missing, or could not be created.
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Datasource\DboSource.php(259): Mysql->connect()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3290): ConnectionManager::getDataSource('default')
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(1094): Model->setDataSource('default')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3316): Model->setSource('setting_categor...')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(2744): Model->getDataSource()
+#6 D:\xampp7.4\htdocs\busker\app\Model\AppModel.php(70): Model->find('all', Array)
+#7 D:\xampp7.4\htdocs\busker\app\Config\cms_menus.php(133): AppModel->find('all', Array)
+#8 D:\xampp7.4\htdocs\busker\app\Config\bootstrap.php(83): require_once('D:\\xampp7.4\\htd...')
+#9 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\Configure.php(92): include('D:\\xampp7.4\\htd...')
+#10 D:\xampp7.4\htdocs\busker\core\lib\Cake\bootstrap.php(142): Configure::bootstrap(true)
+#11 D:\xampp7.4\htdocs\busker\app\webroot\index.php(138): include('D:\\xampp7.4\\htd...')
+#12 {main}
+2022-12-05 18:29:59 Error: Fatal Error (1): Uncaught Error: Class 'ProjectType' not found in D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php:697
+Stack trace:
+#0 D:\xampp7.4\htdocs\busker\app\View\Layouts\default.ctp(138): AppHelper->onProjectAddFormLoad()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(1033): include('D:\\xampp7.4\\htd...')
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(997): View->_evaluate('D:\\xampp7.4\\htd...', Array)
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(653): View->_render('D:\\xampp7.4\\htd...')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(491): View->renderLayout('<h2>An Internal...', 'default')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Controller\Controller.php(960): View->render('error500', 'default')
+#6 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(288): Controller->render('error500')
+#7 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(240): ExceptionRenderer->_outputMessage('error500')
+#8 D:\xampp7.4\htdocs\busker\core\lib\Ca in [D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php, line 697]
+2022-12-05 18:29:59 Error: [InternalErrorException] Internal Server Error
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697)
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(927): ErrorHandler::handleError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697, Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}
+2022-12-05 18:31:30 Error: [MissingConnectionException] Database connection "SQLSTATE[HY000] [1045] Access denied for user 'buskerdues'@'103.83.149.81' (using password: YES)" is missing, or could not be created.
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Datasource\DboSource.php(259): Mysql->connect()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\ConnectionManager.php(101): DboSource->__construct(Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3290): ConnectionManager::getDataSource('default')
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(1094): Model->setDataSource('default')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(3316): Model->setSource('setting_categor...')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Model\Model.php(2744): Model->getDataSource()
+#6 D:\xampp7.4\htdocs\busker\app\Model\AppModel.php(70): Model->find('all', Array)
+#7 D:\xampp7.4\htdocs\busker\app\Config\cms_menus.php(133): AppModel->find('all', Array)
+#8 D:\xampp7.4\htdocs\busker\app\Config\bootstrap.php(83): require_once('D:\\xampp7.4\\htd...')
+#9 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\Configure.php(92): include('D:\\xampp7.4\\htd...')
+#10 D:\xampp7.4\htdocs\busker\core\lib\Cake\bootstrap.php(142): Configure::bootstrap(true)
+#11 D:\xampp7.4\htdocs\busker\app\webroot\index.php(138): include('D:\\xampp7.4\\htd...')
+#12 {main}
+2022-12-05 18:31:30 Error: Fatal Error (1): Uncaught Error: Class 'ProjectType' not found in D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php:697
+Stack trace:
+#0 D:\xampp7.4\htdocs\busker\app\View\Layouts\default.ctp(138): AppHelper->onProjectAddFormLoad()
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(1033): include('D:\\xampp7.4\\htd...')
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(997): View->_evaluate('D:\\xampp7.4\\htd...', Array)
+#3 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(653): View->_render('D:\\xampp7.4\\htd...')
+#4 D:\xampp7.4\htdocs\busker\core\lib\Cake\View\View.php(491): View->renderLayout('<h2>An Internal...', 'default')
+#5 D:\xampp7.4\htdocs\busker\core\lib\Cake\Controller\Controller.php(960): View->render('error500', 'default')
+#6 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(288): Controller->render('error500')
+#7 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ExceptionRenderer.php(240): ExceptionRenderer->_outputMessage('error500')
+#8 D:\xampp7.4\htdocs\busker\core\lib\Ca in [D:\xampp7.4\htdocs\busker\app\View\Helper\AppHelper.php, line 697]
+2022-12-05 18:31:30 Error: [InternalErrorException] Internal Server Error
+#0 D:\xampp7.4\htdocs\busker\core\lib\Cake\Error\ErrorHandler.php(162): ErrorHandler::handleFatalError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697)
+#1 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(927): ErrorHandler::handleError(1, 'Uncaught Error:...', 'D:\\xampp7.4\\htd...', 697, Array)
+#2 D:\xampp7.4\htdocs\busker\core\lib\Cake\Core\App.php(900): App::_checkFatalError()
+#3 [internal function]: App::shutdown()
+#4 {main}

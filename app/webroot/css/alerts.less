@@ -1,0 +1,68 @@
+// ALERT STYLES
+// ------------
+
+// Base alert styles
+
+.alert, .message{
+  padding: 15px 35px 15px 14px;
+  margin-bottom: @baseLineHeight;
+  text-shadow: 0 1px 0 rgba(255,255,255,.5);
+  background-color: #42B51C;
+  border: 1px solid #40B918;
+  .border-radius(4px);
+  color: #fff;
+  font-size:12px;
+  font-weight:bold;
+}
+.alert h4 {
+  margin: 0;
+}
+// Adjust close link position
+.alert .close {
+  position: relative;
+  top: -2px;
+  right: -21px;
+  line-height: @baseLineHeight;
+}
+
+// Adjust close link position
+.alert .close, .message .close {
+  position: absolute;
+  right: 10px;
+  top: 12px;
+  line-height: @baseLineHeight;
+}
+
+// Alternate styles
+// ----------------
+
+.alert-success, #successMessage {
+  background-color: @successBackground;
+  border-color: @successBorder;  
+  color: @successText;
+}
+.alert-danger,
+.alert-error,#errorMessage, #authMessage {
+  background-color: @errorBackground;
+  border-color: @errorBorder;
+  color: @errorText;
+}
+.alert-info, #infoMessage {
+  background-color: @infoBackground;
+  border-color: @infoBorder;
+  color: @infoText;
+}
+
+// Block alerts
+// ------------------------
+.alert-block {
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.alert-block > p,
+.alert-block > ul {
+  margin-bottom: 0;
+}
+.alert-block p + p {
+  margin-top: 5px;
+}

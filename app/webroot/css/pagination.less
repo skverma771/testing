@@ -1,0 +1,58 @@
+// PAGINATION
+// ----------
+
+.paging {
+  height: @baseLineHeight * 2;
+  display: flex;
+  flex-wrap: nowrap;
+  .ie7-inline-block();
+  margin-left: 0;
+  margin-bottom: 0;
+  .border-radius(3px);
+  .box-shadow(0 1px 2px rgba(0,0,0,.05));
+  span{
+	float:left;
+  }
+  li {
+    padding: 0px !important;
+    list-style: none;
+  }
+ span, a, .prev, .next, .current, .ellipsis {
+  float: left;
+  padding: 0 14px;
+  color: @gray;
+  line-height: (@baseLineHeight * 2) - 2;
+  text-decoration: none;
+  border: 1px solid #ddd;
+  border-left-width: 0;
+  &:hover,
+  &.current {
+  background-color: #f5f5f5;
+   color: @black;
+   }
+   &.disabled {
+     display: none;
+  color: @grayLight;
+  background-color: transparent;
+  cursor: default;
+  }
+}
+}
+.paging span.prev, .paging .prev a {
+  border-left-width: 1px;
+  .border-radius(3px 0 0 3px);
+}
+.paging span.next, .paging span.next a{
+  .border-radius(0 3px 3px 0);
+}
+.paging span.prev a, .paging span.next a{
+	padding:0px;
+	border:none;
+	display:block;
+}
+.paging span.next, .paging span.prev, .paging-count {
+    display:none;
+}
+.paging span:first-child, .paging span.prev + span {
+    border-left: 1px solid #ddd;
+}

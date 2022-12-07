@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>Buskerdues | Home</title>
+  <!-- Le HTML5 shim, for IE6-8 support of HTML elements -->
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.1/html5shiv.js"></script>
+  <![endif]-->
+  <link href="/favicon.ico" type="image/x-icon" rel="icon" /><link href="/favicon.ico" type="image/x-icon" rel="shortcut icon" />
+  <meta name="keywords" content="agriya, crowdfund, crowdfunding, kickstarter clone, fundbreak clone, thepoint clone, Sponsume clone, RocketHub clone" />
+  <meta name="description" content="Crowdfunding helps you develop different clone in a crowdfunding fashion" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png" />
+  <link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="//fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet" type="text/css" />
+  <link href="http://www.buskerdues.com/feeds.rss" type="application/rss+xml" rel="alternate" title="RSS Feeds"/>
+    <link rel="stylesheet" type="text/css" href="/css/default.cache.v2.0b1.css" />  <!--[if IE 7]>
+    <link rel="stylesheet" type="text/css" href="/css/font-awesome-ie7.css" />  <![endif]-->
+  <script type="text/javascript">
+//<![CDATA[
+var cfg = {"basePath":"\/","params":{"controller":"projects","action":"index","named":{"type":"home","project_type":"pledge"}},"cfg":{"path_relative":"\/","path_absolute":"http:\/\/www.buskerdues.com\/","site_name":"Buskerdues","timezone":-7,"date_format":"M d, Y","today_date":"2017-10-31"}};document.documentElement.className = 'js';(function() {var js = document.createElement('script'); js.type = 'text/javascript'; js.async = true;js.src = "/js/default.cache.v2.0b1.js";var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(js, s);})();
+//]]>
+</script><!--
+  <meta content="1731305313766146" property="og:app_id" />
+  <meta content="1731305313766146" property="fb:app_id" />
+<meta property="og:image" content="http://www.buskerdues.com/img/logo.png"/>
+  <meta property="og:site_name" content="Buskerdues"/>
+  <meta property="fb:admins" content="100000235263789"/>
+  -->
+  <script type="text/javascript"> var _gaq = _gaq || []; _gaq.push(['_setAccount', 'UA-18572079-3']); _gaq.push(['_setDomainName', '.dev.agriya.com']); _gaq.push(['_setAllowAnchor', true]); _gaq.push(['_trackPageview']); _gaq.push(function() { href = window.location.search; href.replace(/(utm_source|utm_medium|utm_campaign|utm_term|utm_content)+=[^\&]*/g, '').replace(/\&+/g, '&').replace(/\?\&/g, '?').replace(/(\?|\&)$/g, ''); if (history.replaceState) history.replaceState(null, '', location.pathname + href + location.hash);}); (function() { var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true; ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js'; var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s); })(); </script>    <!--[if IE]><script type="text/javascript" src="/js/libs/excanvas.js"></script><![endif]-->
+  </head>
+  <body itemscope itemtype="http://schema.org/WebPage">
+  
+  <div id="projects-index" class="content">
+    <div class="wrapper">
+        <header id="header" class="clearfix ">
+        <div class="js-affix-header navbar affix-content show" data-spy="affix" data-offset-top="60">
+          <div class="navbar-inner no-round">
+            <div class="container clearfix">
+              <div class="dc space">
+                <span class="fund">Fund &amp; Support Creative Projects.</span>
+                <a href="/users/register" title="Sign Up" class="btn hor-mspace btn-primary textb" data-placement="bottom">Sign Up</a>                <span class="sep hor-space">Need Fund? </span>
+				                <a href="/pledge/add" title="Start Project" class="btn textb btn-primary no-mar" data-placement="bottom">Start Project</a>                </div>
+            </div>
+          </div>
+		</div>
+      <div class="navbar no-mar js-top-bar  js-head-navbar">
+        <!-- /navbar-inner -->
+      <div class="navbar-inner no-pad no-round ">
+        <div class="pad-right-left clearfix">
+                <h1 class="span top-space no-mar" itemscope itemtype="http://schema.org/Organization">
+          <a href="/" title="Buskerdues" class="no-pad" itemprop="url"><img src="/img/logo.png" itemprop="logo" alt="" /></a>        </h1>
+        <a data-target=".nav-collapse" data-toggle="collapse" class="btn btn-navbar hor-mspace"> <i class="icon-th-list icon-24 blackc"></i></a>
+          	<div id="js-head-menu" class="hide">
+<div class="nav-collapse">
+  <ul class="nav pSpace">
+			<li  class="fund_support dc pull-left">
+	<a href="/projects/browse" title="Fund &amp; Support">Browse</span></a>	</li>
+  			<li  class="start-project dc pull-left">
+	  <a href="/pledge/add" title="Start" class="clearfix dc">Start</span></a>	</li>
+				<li  class="how_it_works dc pull-left">
+	<a href="/how-it-works" title="Learn more">Learn</a>	</li>
+	<li>
+	<a href="/success_stories" title="Success Stories" class="clearfix dc">Success Stories</span></a>	</li>
+	<li>
+	<a href="/montages" title="Montage" class="clearfix dc">Montage</span></a>	</li>
+	</ul>
+	<div class="pull-right mob-clr top-mspace dc header-right-icons">
+	<ul class="unstyled span hide rightMenu" id="js-before-login-head-menu">
+		<li class="span top-space">
+		  <a href="/page/faq" class="greenc textb" title="FAQ">FAQ</a>		</li>
+		<li class="span top-space">
+		  <a href="/users/register" class="greenc textb" title="Register">Register</a>		</li>
+		<li class="span top-space">
+		  <a href="/users/login" class="greenc textb" title="Login">Login</a>		</li>
+	</ul>
+	  <form action="/projects" class="span navbar-search hor-space" id="ProjectSearchForm" method="post" accept-charset="utf-8"><div style="display:none;"><input type="hidden" name="_method" value="POST"/><input type="hidden" name="data[_Token][key]" value="6d3913a3509851d237d67113cc5b96b0fa2de28c" id="Token1285448479"/></div>	<div class="input-prepend">
+	<span class="add-on"><i class="icon-search text-16 bot-space"></i></span>
+	<input name="data[Project][q]"  placeholder="Search" class="input-small span2" type="search" id="ProjectQ"/>	</div>
+	<div class="submit hide"><div class="submit"><input  type="submit" value="Submit"/></div></div>
+  <div style="display:none;"><input type="hidden" name="data[_Token][fields]" value="0aa0015a8683eeb50b48972fce8ead541dc941df%3A" id="TokenFields1458579275"/><input type="hidden" name="data[_Token][unlocked]" value="Attachment.filename%7CCdata.Project.post%7CCity.id%7CCity.name%7CCity.name%7CEquity%7CForm%7CLend%7CPledge%7CProject.Publish%7CProject.Update%7CProject.address%7CProject.back%7CProject.country_id%7CProject.draft%7CProject.gateway_method_id%7CProject.id%7CProject.is_agree_terms_conditions%7CProject.latitude%7CProject.longitude%7CProject.next%7CProject.normal%7CProject.payment_gateway_id%7CProject.payment_id%7CProject.post%7CProject.project_type%7CProject.project_type_id%7CProject.project_type_slug%7CProject.publish%7CProject.step%7CProject.sudopay_gateway_id%7CProject.type%7CProject.user_id%7CProject.wallet%7CProjectReward%7CState.id%7CState.id%7CState.name%7CSudopay%7C_wysihtml5_mode%7Cs3_file_url" id="TokenUnlocked1481596579"/></div></form>  <div class="span dropdown tab-float">
+	<a href="#" class="btn btn-small dropdown-toggle js-no-pjax" data-toggle="dropdown" title="Advanced Search"><i class="icon-search text-16 bot-space"></i><span class="hide">Settings</span> <span class="caret"></span></a>
+	<ul class="unstyled dropdown-menu arrow arrow-right dl clearfix">
+	<li><a href="/pledge/browse" title="Browse All">Browse All</a></li>
+	<li><a href="/cities" title="Cities">Cities</a></li>
+	<li><a href="/pledge_project_categories/listall" title="Category">Category</a></li>
+	<li><a href="/montages" title="Montage">Montage</a></li>
+	</ul>
+  </div>
+  <div class="btn-group span hor-space dropdown tab-float">
+		<a class="btn btn-small dropdown-toggle js-no-pjax" data-toggle="dropdown" href="#"> <span class="blackc">EN<i class="caret"></i></span></a>
+	<ul class="dropdown-menu arrow arrow-right dl">
+		<li><a href="#" title="English" class="js-lang-change" data-lang_id="en">English</a></li>
+		<li><a href="#" title="French" class="js-lang-change" data-lang_id="fr">French</a></li>
+		<li><a href="#" title="German" class="js-lang-change" data-lang_id="de">German</a></li>
+		</ul>
+	  </div>
+  </div>
+</div>
+<script type="text/javascript">
+//<![CDATA[
+function getCookie (c_name) {var c_value = document.cookie;var c_start = c_value.indexOf(" " + c_name + "=");if (c_start == -1) {c_start = c_value.indexOf(c_name + "=");}if (c_start == -1) {c_value = null;} else {c_start = c_value.indexOf("=", c_start) + 1;var c_end = c_value.indexOf(";", c_start);if (c_end == -1) {c_end = c_value.length;}c_value = unescape(c_value.substring(c_start,c_end));}return c_value;}if (getCookie('_gz')) {(function() {var js = document.createElement('script'); js.type = 'text/javascript'; js.async = true;js.src = "http://www.buskerdues.com/users/show_header.js?u=";var s = document.getElementById('js-head-menu'); s.parentNode.insertBefore(js, s);})();} else {document.getElementById('js-head-menu').className = '';document.getElementById('js-before-login-head-menu').className = 'unstyled span rightMenu top-smspace';}
+//]]>
+</script>
+	</div>
+        </div>
+      </div>
+      </div>
+      
+    </header>
+
+	<section id="pjax-body">
+	
+		<div id="node-16" class="show node node-type-page ">
+      <h2 class="ver-space clearfix hide">home banner</h2>
+  <div class="well no-round banner-block banner-block-new"> 
+                          <div class="container dc">
+                                    <div class="clearfix top-space"> 
+                                              <a href="/pledge/add" title="Start Project" class="js-tooltip btn btn-large btn-primary start-busking-bg"> Start busking</a>
+                                     </div>
+                          </div>
+</div>  
+  <section>
+	<div class="clearfix">
+<h2 class="dc textn banner-bottom blue_text">
+    Activating the world one street at a time  </h2>
+		
+       
+		<div id="home-video-hide" class="clearfix adjust-layout pad-20">
+								<div class="row dc video-home-page-bg">
+																	<div class="clearfix">
+					<div class="dl whitec pr">
+					<div class="navbar-right home-video mob-dr pa" style="cursor: pointer;"><img src="/img/close-button.png" alt="" /></div>
+					</div>
+					
+						<div class="space videobgcolor">
+						
+									<div class="pr clearfix bor-grey">
+											<div class="span12 no-mar wid-50">
+		                                    
+												
+												<object   type="application/x-shockwave-flash"  data="https://www.youtube.com/v/adthJ-6Z8FE&amp;rel=0&amp;fs=1"  width="600"  height="340"  wmode="transparent"> <param name="movie" value="https://www.youtube.com/v/adthJ-6Z8FE&amp;rel=0&amp;fs=1" /><param name="quality" value="high" /><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="pluginspage" value="http://www.macromedia.com/go/getflashplayer" /><param name="autoplay" value="false" /><param name="autostart" value="false" /><param name="flashvars" value="" /><param name="wmode" value="transparent" />  </object>											</div>
+											<div class="span12 no-mar pull-right wid-50">
+												<div class="right-content">
+													<div class="space">
+														<a href="/home_videos/homepage_pdf_download/1/211"><img src="/img/download-red.png" class="pull-left space" alt="Download PDF" /></a>														<h6 class="space dl whitec">PDF link to files for <a href="/home_videos/homepage_pdf_download/1/211" target="_blank" title="Download PDF" class="no-under js-no-pjax js-helptip">free guide</a> download</h6>
+													</div>
+													<div class="video-title">
+														<h3 class="space dl whitec">Helping the word create living opportunities</h3>
+													</div>
+											    <!--<ul class="whitec dl video-desc">
+														<li>Personal Mentorship</li>
+														<li>Tax Deductions for Supporters</li>
+														<li>Specialized Grants</li>
+														<li>Lower Fees</li>
+														<li>An Audience that Cares!</li>
+													</ul>-->
+													
+													<div class="whitec dl left-space video-desc"><ul><li>Personal Mentorship</li><li>Supporters</li><li>A Great Community</li><li>Lower Fees</li><li>An Audience that Cares!</li></ul></div>
+													<div class="no-round"> 
+														  <div class="clearfix space dl mob-dc">
+															  
+															  <a href="/pledge/add" title="START YOUR CAMPAIGN" class="btn btn-large btn-primary js-no-pjax start-btn">START YOUR CAMPAIGN</a><a href="/how-it-works" title="Learn More About Buskerdues" class="btn btn-large btn-primary js-no-pjax  learn-btn">Learn More About Buskerdues</a>	
+														  </div>
+													</div>
+												</div>
+											</div>
+									</div>
+									<!--<div class="clear-both dl whitec">
+											<h4>video title</h4>
+									</div>-->
+						</div>
+				</div>
+								
+			</div>
+			
+		</div>
+
+	</div>
+</section>  
+  </div>
+	    	    <section id="main" class="projects-index clearfix bot-space common-banner-block common-banner-block-none common-banner-block-none">
+		<div class="thumbnail  light-green-bg  ">			<section class="clearfix bot-space">
+  
+  <div class="clearfix no-mar dc ver-mspace">
+  <div class="no-mar dc">
+    <div class="bot-mspace clearfix bot-space show-inline" itemtype="http://schema.org/Product" itemscope>
+       <div class="home-round-block clearfix no-mar">
+         <!--div class="circ space row offset1">
+           <div class="pledge-status img-circle dc whitec" itemprop="Name"><span class="show top-space"><img src="/img/pledge-hand.png" width="67" height="67" alt="" /></span>Tip			</div>
+           </div-->
+            <!--p class="span5 dl" itemprop="description">In tip projects, amount is captured by end date and may offer rewards.</p-->
+
+			<div class="dc clearfix pledge">
+				<span class="span no-mar">
+					<a href="/pledge/browse" class="btn btn-module span5 ver-smspace js-tooltip" title="Browse">Browse</a>				</span>
+				<span class="space textb span no-mar text-14">OR</span>
+				<span class="span no-mar">
+				<a href="/pledge/add" title="Start Project" class="btn btn-module span5 ver-smspace js-tooltip">Start Project</a>				</span>
+          </div>
+        </div>
+ </div>
+ </div>
+</div>
+<div class="ver-mspace">
+	<div class="clearfix dc">
+			<ul class="unstyled over-hide pad-20">
+								<li class="span6 wid-20 pr over-hide pledge project-list">
+					<section class="project-bg">
+						<h4 class="ptop-space htruncate home-list-title textn"> <a href="/project/buskers-on-the-test" class="blackc" title="Buskers on the Test">Buskers on the Test</a></h4>
+						<p class="htruncate pbot-space">
+							by <a href="/user/admin" title="admin"><span class="c">admin</span></a>						</p>
+						<div>
+						<a href="/project/buskers-on-the-test"><img src="/img/big_thumb/Project/218.376052463c669589559e936f1e4ad61d.jpg" class="" alt="[Image: Buskers on the Test]" title="Buskers on the Test" width="220" height="165" /></a>						</div>
+						<div class="list-content">   
+							<p class="htruncate-multiple-lines dl"><span class="c">Poverty is a state or condition in which a person or community lacks the financial resources and essentials to enjoy a minimum standard of life and well-being that's considered acceptable in society.</span></p>
+							<p class="htruncate dl">             
+									<span class="top-space no-mar">
+									<span class="flags flag-in"></span><a href="/greater-vancouver/projects" title="1986 Charles St, Vancouver, BC V5L 2T9, Canada"><span class="c">1986 Charles St, Vancouver, BC V5L 2T9, Canada</span></a>									</span>
+							</p>
+
+							<div class="clearfix">
+								<dl class="no-mar clearfix pull-left">
+								  <dt class="pull-left"><span class="c textn" title="zero"><span class="c" title="zero">0</span></span></dt>
+								  <dd class="pull-left left-smspace">Backers</dd>
+								</dl>
+								<dl class="no-mar pull-right clearfix">
+								  <dt class="pull-right left-smspace textn">Followers</dt>
+								  <dd class="pull-right"><span class="c" title="zero"><span class="c" title="one">1</span></span></dd>
+								</dl>
+                            </div>
+
+							<div class="clearfix">
+								<dl class="feature-list pull-left">
+								<dt class="updates" title="Updates">Updates:</dt>
+								<dd>
+								<a href="/blogs/index/project_id:45/span_val:3" class="js-no-pjax" title="Updates" data-target="#updates">0</a>								</dd>
+								<dt class="views" title="Views">Views: </dt>
+								<dd>
+								<a href="/project/buskers-on-the-test" title=""><span class="c" title="twenty-five">25</span></a>								</dd>
+								</dl>
+							</div>
+                
+							<div class="top-space-25 sep-top">
+								<div class="progress progress-mini progress-module progress-bar-alter">
+									<div style="width:0.00%;" title = "0%" class="bar"></div>
+								</div>
+								<div class="row-fluid no-mar dl">
+									<div class="span7 pull-left no-mar">
+										<span class="c" title=""><strong>0%</strong></span>
+										<p class="no-mar">funded</p>
+										
+									</div>
+									<div class="span7 pull-left">
+										<strong>$</strong><span class="c cr" title=""><strong>0</strong></span>
+										<p class="no-mar htruncate">tipped</p>  
+									</div>
+									<div class="span10 pull-left">
+																				<span class="c" title=""><strong>35</strong></span>
+										<p class="no-mar htruncate">days to go</p>
+									</div>
+								</div>
+							</div>
+
+
+						  <div class="no-mar">
+							<div class="clearfix dc pledge pledge-btn">
+                                <a href="/project_followers/add/45" class="show-inline btn btn-module mspace dc" title="Follow">Follow</a>								<a href="/project_funds/add/45" class="show-inline btn btn-module mspace dc" title="Tip">Tip</a>							</div>
+						  </div>
+
+					</div>
+				</section>
+			</li>
+				  </ul>
+	
+	</div>
+</div>
+<div class="clearfix dc pledge ver-mspace space">
+	<p class="ver-mspace" title="Tip more projects"> 
+<a href="/pledge/browse" class="btn hor-mspace btn-primary textb">Tip more projects</a>	</p>
+</div>
+
+</section>		</div>
+    </section>
+	
+	</section>
+		<!--div id="advantage" class="well space show">
+      <div class="container" itemscope itemtype="http://schema.org/WPHeader">
+        <h4 class="dc space bot-mspace sep-bot" itemprop="headline">Agriya Crowdfunding Advantage</h4>
+        <div class="span24 no-mar ver-space" itemscope itemtype="http://schema.org/Offer">
+          <div class="span8 no-mar">
+            <ol start="1">
+              <li class="bot-mspace" itemprop="addOn">First and complete crowdfunding software</li>
+              <li class="bot-mspace" itemprop="addOn">Has many revenue options (Signup fee, Project listing fee, Commission on pledge, Affiliate, Ads)</li>
+              <li class="bot-mspace" itemprop="addOn">US's JOBS Act (Jumpstart Our Business Startups Act) compliant equity mod</li>
+              <li class="bot-mspace" itemprop="addOn">UK's SEIS (Seed Enterprise Investment Scheme) compliant equity mod</li>
+            </ol>
+          </div>
+          <div class="span8">
+            <ol start="5">
+              <li class="bot-mspace" itemprop="addOn">Multilingual support</li>
+              <li class="bot-mspace" itemprop="addOn">With MVC and plugin based architecture</li>
+              <li class="bot-mspace" itemprop="addOn">Growth hacking plugin for improving user growth</li>
+              <li class="bot-mspace" itemprop="addOn">High performance and cloud ready</li>
+            </ol>
+          </div>
+          <div class="span7">
+            <ol start="9">
+              <li class="bot-mspace" itemprop="addOn">Mobile friendly</li>
+              <li class="bot-mspace" itemprop="addOn">Streamlined workflow and hence no maintenance headaches</li>
+            </ol>
+			 <a itemprop="itemOffered" href="http://www.agriya.com/contact" target="_blank" class="btn btn-large" title="Contact Agriya">Contact Agriya</a>
+          </div>
+        </div>
+        <div class="span24 no-mar ver-space mob-no-pad">
+          <div class="span3 ver-smspace ver-space mob-no-mar mob-no-pad">
+            <h5 class="ver-mspace ver-space mob-no-pad">Clone of</h5>
+          </div>
+          <div class="span21 no-mar">
+		  <img src="/img/cloneof.png" alt="[Image: kickstarter.com, fundrazr.com, fundedbyme.com, indiegogo.com, gofundme.com, rockethub.com, microryza.com, fundly.com, fondomat.com, funding4learning.com, rockthepost.com, artistshare.com, sellaband.com, giveforward.com, en.headstart.co.il, offbeatr.com, petridish.org, youcaring.com, bountysource.com, rally.org, mobcaster.com, crowdcube.com, earlyshares.com, banktothefuture.com, bolstr.com]" width="892" height="89" title="kickstarter.com, fundrazr.com, fundedbyme.com, indiegogo.com, gofundme.com, rockethub.com, microryza.com, fundly.com, fondomat.com, funding4learning.com, rockthepost.com, artistshare.com, sellaband.com, giveforward.com, en.headstart.co.il, offbeatr.com, petridish.org, youcaring.com, bountysource.com, rally.org, mobcaster.com, crowdcube.com, earlyshares.com, banktothefuture.com, bolstr.com" />		  </div>
+        </div>
+      </div>
+    </div-->    <div class="footer-push"></div>
+    </div>
+    <footer id="footer" class="top-mspace">
+
+	<div id="footer-top">
+		<div class="container footer-top clearfix space-imp">
+
+			<div class="span7 clearfix">
+				
+<h5>Browse Categories</h5>
+<ul class="span4 unstyled">
+    <li><a href="/pledge/category/acrobats" title="Acrobats">Acrobats</a></li>
+    <li><a href="/pledge/category/comedy" title="Comedy">Comedy</a></li>
+    <li><a href="/pledge/category/comics" title="Comics">Comics</a></li>
+    <li><a href="/pledge/category/dance" title="Dance">Dance</a></li>
+    <li><a href="/pledge/category/fashion" title="Fashion">Fashion</a></li>
+    <li><a href="/pledge/category/guitar" title="Guitar">Guitar</a></li>
+  </ul>
+<ul class="span3 unstyled">
+    <li><a href="/pledge/category/jugglers" title="Jugglers">Jugglers</a></li>
+    <li><a href="/pledge/category/magic" title="Magic">Magic</a></li>
+    <li><a href="/pledge/category/music-group" title="Music Group">Music Group</a></li>
+    <li><a href="/pledge/category/other" title="Other">Other</a></li>
+    <li><a href="/pledge/category/street-art" title="Street Art">Street Art</a></li>
+    <li><a href="/pledge/category/Theater" title="Theater">Theater</a></li>
+  </ul>
+				
+			</div>
+
+			<div class="span6">
+				<h5 class="ver-space bot-mspace">Keep in touch</h5>
+				<p>We are a social company, and like to get to know you and keep you up to date with latest features, blogs, ideas in the spotlight and many more.</p>
+				<ul class="footer-follow unstyled over-hide">
+					<li class="twitter"><a href="http://twitter.com/BuskerDues" title="twitter" target="_blank">Twitter</a></li>
+					<li class="facebook"><a href="http://www.facebook.com/pages/sfplatform/464629930229988?ref=ts" title="Facebook" target="_blank">Facebook</a></li>
+				</ul>
+			</div>
+
+			<div class="clearfix span10 total-amount-block ver-space">
+				<dl class="amount-list">
+					<dt>Funded Amount</dt>
+						<dd class="round-3">$<span class="c cr" title="one thousand seven hundred twenty-two dollars">1,722.00</span></dd>
+				</dl>
+				<dl class="amount-list">
+					<dt>Successful Projects</dt>
+						<dd class="round-3"><span class="c" title="eight">8</span></dd>
+				</dl>
+                <dl class="amount-list">
+					<dt>Total Views</dt>
+						<dd class="round-3"><span class="c top-space js-tooltip" title="Today  : 1 Last Week : 1 Last Month : 13 Last Year : 473" data-placement="top"><a href="/view_states">473</a></span></dd>
+				</dl>
+                <dl class="amount-list">
+					<dt>Online Users</dt>
+						<dd class="round-3"><span class="c" title="3">3</span></dd>
+				</dl>
+			</div>
+
+		</div>
+	</div>	
+
+
+          <!--div class="dc clearfix bot-space">
+      <img src="http://placehold.it/728X90" alt ="728X90" width="728" height="90"/>      </div-->
+        <div class="well no-round space no-mar">
+      <div class="container clearfix">
+      <div class="row">
+        <section class="span17">
+        <div class="row">
+          <div class="footer-link"><ul class="unstyled clearfix"><li><a href="/page/term-and-conditions" id="link-1" title="Term and Conditions" class="span pull-left ">Term and Conditions</a></li><li><a href="/page/privacy-policy" id="link-2" title="Privacy Policy" class="span pull-left ">Privacy Policy</a></li><li><a href="/page/aup" id="link-3" title="Acceptable Use Policy" class="span pull-left ">Acceptable Use Policy</a></li><li><a href="/how-it-works" id="link-4" title="How it Works" class="span pull-left ">How it Works</a></li><li><a href="/contactus" id="link-5" title="Contact Us" class="span pull-left ">Contact Us</a></li><li><a href="/success_stories" id="link-6" title="Success Stories" class="span pull-left success-stories">Success Stories</a></li><li><a href="/blog" id="link-7" target="blank" title="Blog" class="span pull-left span pull-left js-no-pjax">Blog</a></li></ul></div>
+			  <div class="clearfix">
+				  <p class="span">&copy;2017<a href="/" title="Buskerdues" class="site-name textb hor-smspace">Buskerdues</a>. All rights reserved.</p> 
+			 </div>
+        </div>
+        </section>
+        <!--section class="pull-right mob-clr">
+        <ul class="span follow-links unstyled row">
+                    <li class="span facebook pull-left"><a href="#" title="Facebook" target="_blank" class="js-no-pjax show">Facebook</a></li>
+          <li class="span twitter pull-left"><a href="http://www.twitter.com/agriyacrowdfund" title="Twitter" target="_blank" class="js-no-pjax show">Twitter</a></li>
+          <li class="span rss pull-left"><a href="/feeds.rss" class="show js-no-pjax" target="_blank" title="RSS feed">RSS</a></li>
+        </ul>
+        </section-->
+      </div>
+      </div>
+    </div>
+    </footer>
+      </div>
+  </body>
+</html>
